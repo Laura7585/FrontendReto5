@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/misFunciones.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+    <title> Reto 3 - ciclo 3 </title>
+
+</head>
+
+<body>
+
+    <!-- CATEGORY ----------------------------------------------------------------------------------------------->
+    <div>
+        <section class="form-category">
+            <form>
+                <h3> Categorias</h3>
+                <input class="controls" type="text" id="Cname" placeholder="name" required>
+                <input class="controls" type="text" id="Cdescription" placeholder="description" required>
+                <button class="button" type="submit" onclick="guardarInformacionCategorias()">Guardar categorias
+                </button>
+            </form>
+            <button class="button" type="submit" onclick="traerInformacionCategorias()"> Consultar Categorias </button>
+        </section>
+        <section class="form-show-categories">
+            <h2> Tabla de categorias </h2>
+            <div id="resultado1"></div>
+        </section>
+    </div>
+
+    <!-- SKATE ------------------------------------------------------------------------------------------------->
+    <div>
+        <section class="form-skate">
+            <form>
+                <h3> Skate </h3>
+                <input class="controls" type="text" id="Sname" placeholder="name" required>
+                <input class="controls" type="text" id="Sbrand" placeholder="brand" required>
+                <input class="controls" type="number" id="Syear" placeholder="year" required>
+                <input class="controls" type="text" id="Sdescription" placeholder="description" required>
+                <button class="button" onclick="guardarInformacionSkates()"> Guardar skates </button>
+            </form>
+            <button class="button" onclick="traerInformacionSkates()"> Consultar skates </button>
+        </section>
+        <section class="form-show-skates">
+            <h2> Tabla de skates </h2>
+            <div id="resultado2"></div>
+        </section>
+    </div>
+
+    <!-- CLIENTS ----------------------------------------------------------------------------------------------->
+    <div>
+        <section class="form-client">
+            <form>
+                <h3> Clients </h3>
+                <input class="controls" type="text" id="CLemail" placeholder="email" required>
+                <input class="controls" type="password" id="CLpassword" placeholder="password" required>
+                <input class="controls" type="text" id="CLname" placeholder="name" required>
+                <input class="controls" type="number" id="CLage" placeholder="age" required>
+                <button class="button" onclick="guardarInformacionClients()"> Guardar clients </button>
+            </form>
+            <button class="button" onclick="traerInformacionClients()"> Consultar clients </button>
+        </section>
+        <section class="form-show-clients">
+            <h2> Tabla de clientes </h2>
+            <div id="resultado3"></div>
+        </section>
+    </div>
+
+    <!-- MESSAGES ------------------------------------------------------------------------------------------>
+    <div>
+        <section class="form-message">
+            <form>
+                <h3> Messages </h3>
+                <input class="controls" type="text" id="MmessageText" placeholder="message text" required>
+                <button class="button" onclick="guardarInformacionMessages()"> Guardar messages </button>
+            </form>
+            <button class="button" onclick="traerInformacionMessages()"> Consultar messages </button>
+        </section>
+        <section class="form-show-messages">
+            <h2> Tabla de mensajes </h2>
+            <div id="resultado4"></div>
+        </section>
+    </div>
+
+    <!-- RESERVATION ----------------------------------------------------------------------------------------->
+    <div>
+        <section class="form-reservation">
+            <form>
+                <h3> Reservations </h3>
+                <input class="controls" type="date" id="RstartDate" placeholder="Start date" required>
+                <input class="controls" type="date" id="RdevolutionDate" placeholder="Devolution date" required>
+                <button class="button" onclick="guardarInformacionReservations()"> Guardar reservations </button>
+            </form>
+            <button class="button" onclick="traerInformacionReservations()"> Consultar reservations </button>
+        </section>
+        <section class="form-show-reservations">
+            <h2> Tabla de reservations </h2>
+            <div id="resultado5"></div>
+        </section>
+    </div>
+
+    <div>
+        <section class="form-reportes">
+            <h1>REPORTES</h1>
+    <div>
+        <section class="form-reporteStatus">
+            <h3> Reporte estado</h3>
+            <button class="button" onclick="traerReporteStatus()"> Generar Reporte Status Reservas </button>
+            <div id="resultadoStatus"></div>
+        </section>
+        </div>
+
+    <div>
+        <section class="form-reporteDate">
+            <h3> Reporte fechas </h3>
+            <input class="controls"type="date" id="RstarDate1" placeholder="descripcion">
+            <input class="controls" type="date" id="RdevolutionDate1" placeholder="descripcion">
+            <button class="button" onclick="traerReporteDate()"> Generar Reporte por fecha </button>
+            <div id="resultadoDate"></div>
+        </section>
+    </div>
+
+    <div>
+        <section class="form-reporteClient">
+            <h3> Reporte clientes </h3>
+            <button class="button" onclick="traerReporteClientes()"> Generar Reporte Clientes y Cantidad de reservas por
+                cliente
+            </button>
+            <div id="resultadoClientes"></div>
+        </section>
+    </div>
+</section>
+</div>
+</body>
+
+</html>

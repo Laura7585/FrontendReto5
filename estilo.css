@@ -1,0 +1,704 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+
+html {
+    background: url(33015.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+
+
+/*
+* CLIENTS
+*/
+.form-client {
+float:left;
+width: 400px;
+background: #24303c;
+padding: 30px;
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 375px;
+border-radius: 4px;
+font-family: "calibri";
+color: white;
+box-shadow: 7px 13px 37px #000;
+}
+
+.form-client h3 {
+font-size: 22px;
+margin-bottom: 20px;
+text-align:center;
+}
+
+table{
+    width: 100%;
+    border: 1px solid #1f53c5;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 0 0 1em 0;
+    caption-side: top;
+}
+caption, td, th {
+    padding: 0.3em;
+}
+th, td {
+    border-bottom: 1px solid #1f53c5;
+    width: 25%;
+}
+caption {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.form-client .controls {
+width: 100%;
+background: #24303c;
+padding: 10px;
+border-radius: 4px;
+margin-bottom: 16px;
+border: 1px solid #1f53c5;
+font-family: "calibri";
+font-size: 18px;
+color: white;
+}
+
+.form-client .button {
+width: 100%;
+background: #344c80;
+border: groove;
+padding: 12px;
+color: white;
+margin: 16px 0;
+font-size: 16px;
+}
+
+.form-show-clients {
+float:left;
+width: 400px;
+background: #24303c;
+padding: 30px;
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+border-radius: 4px;
+font-family: "calibri";
+color: white;
+box-shadow: 7px 13px 37px #000;
+}
+
+.form-show-clients h2 {
+font-size: 22px;
+margin-bottom: 20px;
+text-align:center;
+}
+
+/*
+* MESSAGES
+*/
+.form-message {
+    float:left;
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 375px;
+    border-radius: 4px;
+    font-family: "calibri";
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    }
+    
+    .form-message h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align:center;
+    }
+    
+    table{
+        width: 100%;
+        border: 1px solid #1f53c5;
+        text-align: left;
+        border-collapse: collapse;
+        margin: 0 0 1em 0;
+        caption-side: top;
+    }
+    caption, td, th {
+        padding: 0.3em;
+    }
+    th, td {
+        border-bottom: 1px solid #1f53c5;
+        width: 25%;
+    }
+    caption {
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    .form-message .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: "calibri";
+    font-size: 18px;
+    color: white;
+    }
+    
+    .form-message .button {
+    width: 100%;
+    background: #344c80;
+    border: groove;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    }
+    
+    .form-show-messages {
+    float:left;
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    font-family: "calibri";
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    }
+    
+    .form-show-messages h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align:center;
+    }
+/*
+* SKATE
+*/
+.form-skate {
+    float:left;
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 375px;
+    border-radius: 4px;
+    font-family: "calibri";
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    }
+    
+    .form-skate h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align:center;
+    }
+    
+    table{
+        width: 100%;
+        border: 1px solid #1f53c5;
+        text-align: left;
+        border-collapse: collapse;
+        margin: 0 0 1em 0;
+        caption-side: top;
+    }
+    caption, td, th {
+        padding: 0.3em;
+    }
+    th, td {
+        border-bottom: 1px solid #1f53c5;
+        width: 25%;
+    }
+    caption {
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    .form-skate .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: "calibri";
+    font-size: 18px;
+    color: white;
+    }
+    
+    .form-skate .button {
+    width: 100%;
+    background: #344c80;
+    border: groove;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    }
+    
+    .form-show-skates {
+    float:left;
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    font-family: "calibri";
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    }
+    
+    .form-show-skates h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align:center;
+    }
+/*
+* CATEGORY
+*/
+.form-category {
+    float:left;
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 375px;
+    border-radius: 4px;
+    font-family: "calibri";
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    }
+    
+    .form-category h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align:center;
+    }
+    
+    table{
+        width: 100%;
+        border: 1px solid #1f53c5;
+        text-align: left;
+        border-collapse: collapse;
+        margin: 0 0 1em 0;
+        caption-side: top;
+    }
+    caption, td, th {
+        padding: 0.3em;
+    }
+    th, td {
+        border-bottom: 1px solid #1f53c5;
+        width: 25%;
+    }
+    caption {
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    .form-category .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: "calibri";
+    font-size: 18px;
+    color: white;
+    }
+    
+    .form-category .button {
+    width: 100%;
+    background: #344c80;
+    border: groove;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    }
+    
+    .form-show-categories {
+    float:left;
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    font-family: "calibri";
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    }
+    
+    .form-show-categories h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align:center;
+    }
+
+/*
+* RESERVATIONS
+*/
+.form-reservation {
+    float:left;
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 375px;
+    border-radius: 4px;
+    font-family: "calibri";
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    }
+    
+    .form-reservation h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align:center;
+    }
+    
+    table{
+        width: 100%;
+        border: 1px solid #1f53c5;
+        text-align: left;
+        border-collapse: collapse;
+        margin: 0 0 1em 0;
+        caption-side: top;
+    }
+    caption, td, th {
+        padding: 0.3em;
+    }
+    th, td {
+        border-bottom: 1px solid #1f53c5;
+        width: 25%;
+    }
+    caption {
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    .form-reservation .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: "calibri";
+    font-size: 18px;
+    color: white;
+    }
+    
+    .form-reservation .button {
+    width: 100%;
+    background: #344c80;
+    border: groove;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    }
+    
+    .form-show-reservations {
+    float:left;
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    font-family: "calibri";
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    }
+    
+    .form-show-reservations h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align:center;
+    }
+
+/*
+* REPORTE STATUS
+*/
+
+.form-reporteStatus{
+    float:center;
+    width: 600px;
+    background: #5f8cb3;
+    padding: 30px;
+    margin-top: 10px;
+    margin-right: 400px;
+    margin-bottom: 10px;
+    margin-left: 130px;
+    border-radius: 4px;
+    font-family: "calibri";
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    align-content: center;
+    vertical-align: middle;
+}
+    .form-reporteStatus h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #000000;
+    text-align:center;
+    }
+    
+    table{
+        width: 100%;
+        border: 1px solid #1f53c5;
+        text-align: left;
+        border-collapse: collapse;
+        margin: 0 0 1em 0;
+        caption-side: top;
+    }
+    caption, td, th {
+        padding: 0.3em;
+    }
+    th, td {
+        border-bottom: 1px solid #1f53c5;
+        width: 25%;
+    }
+    caption {
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    .form-reporteStatus .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: "calibri";
+    font-size: 18px;
+    color: white;
+    }
+    
+    .form-reporteStatus .button {
+    width: 100%;
+    background: #344c80;
+    border: groove;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    }
+    
+    
+    .form-show-clients h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align:center;
+    }
+    
+/*
+* REPORTE DATE
+*/
+
+.form-reporteDate{
+    float:center;
+    width: 600px;
+    background: #5f8cb3;
+    padding: 30px;
+    margin-top: 10px;
+    margin-right: 400px;
+    margin-bottom: 10px;
+    margin-left: 130px;
+    border-radius: 4px;
+    font-family: "calibri";
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    align-content: center;
+    vertical-align: middle;
+}
+
+    .form-reporteDate h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #000000;
+    text-align:center;
+    }
+    
+    table{
+        width: 100%;
+        border: 1px solid #1f53c5;
+        text-align: left;
+        border-collapse: collapse;
+        margin: 0 0 1em 0;
+        caption-side: top;
+    }
+    caption, td, th {
+        padding: 0.3em;
+    }
+    th, td {
+        border-bottom: 1px solid #1f53c5;
+        width: 25%;
+    }
+    caption {
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    .form-reporteDate .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: "calibri";
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    }
+    
+    .form-reporteDate .button {
+    width: 100%;
+    background: #344c80;
+    border: groove;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    }
+    
+    .form-reporteDate h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align:center;
+    }
+
+    /**
+    *General
+    */
+    .form-reportes{
+        float:left;
+        width: 900px;
+        background: #24303c;
+        padding: 30px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 300px;
+        border-radius: 4px;
+        font-family: "calibri";
+        color: white;
+        box-shadow: 7px 13px 37px #000;
+    }
+
+    .form-reportes h1{
+        font-size: 22px;
+        margin-bottom: 40px;
+        text-align:center;
+        font-family: cursive;
+    }
+/*
+* REPORTE CLIENTE
+*/
+
+ .form-reporteClient{
+    float:center;
+    width: 600px;
+    background: #5f8cb3;
+    padding: 30px;
+    margin-top: 10px;
+    margin-right: 400px;
+    margin-bottom: 10px;
+    margin-left: 130px;
+    border-radius: 4px;
+    font-family: "calibri";
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    align-content: center;
+    vertical-align: middle;
+}
+    .form-reporteClient h3 {
+        font-size: 30px;
+        margin-bottom: 20px;
+        color: #000000;
+        text-align:center;
+    }
+    
+    table{
+        width: 100%;
+        border: 1px solid #070707;
+        text-align: left;
+        border-collapse: collapse;
+        margin: 0 0 1em 0;
+        caption-side: top;
+        background: #24303c;
+    }
+    caption, td, th {
+        padding: 0.3em;
+    }
+    th, td {
+        border-bottom: 1px solid #000000;
+        width: 25%;
+    }
+    caption {
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    .form-reporteClient .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: "calibri";
+    font-size: 18px;
+    color: white;
+    text-align: left;
+    }
+    
+    .form-reporteClient .button {
+    width: 100%;
+    background: #344c80;
+    border: groove;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    align-items: left;
+    }
+    
+    .form-reporteClient h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align:center;
+    }
+
